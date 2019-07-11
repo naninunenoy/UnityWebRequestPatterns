@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 using UniRx;
 using UniRx.Async;
 
-namespace WebRequest.Observable {
+namespace WebRequest.UniRx {
     public class UniRxWebRequest : MonoBehaviour {
         async void Start() {
             var req = UnityWebRequest.Get("https://unity.com/");
