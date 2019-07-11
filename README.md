@@ -1,0 +1,2 @@
+# UnityWebRequestPatterns
+Patterns of UnityWebRequest
