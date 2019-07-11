@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 
-namespace WebRequest {
+namespace WebRequest.Basic {
     public class CoroutineWebRequest : MonoBehaviour {
         IEnumerator Start() {
             var req = UnityWebRequest.Get("https://unity.com/");
